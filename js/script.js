@@ -2,7 +2,7 @@
 function getNama(){
     var name = document.getElementById("mynama").value;
     localStorage.setItem("nama", name);
-    window.location.href = './status.html';
+    window.location.href = './index.html';
 }
 
 function timeoutData() {
